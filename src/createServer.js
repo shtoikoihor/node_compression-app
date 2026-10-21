@@ -93,6 +93,8 @@ function createServer() {
           },
         );
       });
+
+      return;
     }
 
     res.statusCode = 404;
